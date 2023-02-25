@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./style.css" rel="stylesheet"/>
+    <title>Personal Portfolio Website</title>
+</head>
+<body>
+    
+
+    <div class="container">
+        <nav>
+            <div class="logo">folio<b>.</b></div>
+            <ul class="navItems">
+                <li><a href="./index.html">home</a></li>
+                <li><a href="./index.html">about</a></li>
+                <li><a href="./index.html">skills</a></li>
+                <li><a href="./index.html">blog</a></li>
+            </ul>
+            <div class="Links">
+                <a href="https://www.linkedin.com/in/chandra-bhan-prajapati-5bb668211/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/Chandrabhan3264" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </nav>
+
+
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topLine">Hello</span>
+                <h1>I'm <span class="multiText">developer</span></h1>
+                <p>Hey, My name is Chandra_Bhan_Prajapati. I'm from Uttar Pradesh Atarra. I have completed BCA in 2021 for web development from Makhanlal Chaturvedi University.</p>
+                <div class="btns">
+                    <a href="./Chandra_Bhan_Resume.pdf" target="_blank"><button>download cv</button></a>
+                    <button onclick="info()">hire me</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="dog-claw-scratch-and-blood-images-11.png" id="splash">
+                    <img src="IMG_20191205_125239_4-removebg-preview.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function info(){
+             
+            Swal.fire({
+            title: 'Contact Info- 7753868133',
+            width: 600,
+            padding: '3em',
+            color: '#716add',
+            background: '#fff url(/images/trees.png)',
+            backdrop: `
+                rgba(0,0,123,0.4)
+                url("/images/nyan-cat.gif")
+                left top
+                no-repeat
+            `
+            })
+        }
+    </script>
+</body>
+</html>
